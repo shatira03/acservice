@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ka" data-lang="ka">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>კონდიციონერის მონტაჟი, შეკეთება, წმენდა თბილისი | AC Service</title>
+
+  <meta name="description"
+    content="კონდიციონერის მონტაჟი, წმენდა, დიაგნოსტიკა და შეკეთება თბილისში. გამოცდილი სპეციალისტები, სწრაფი მომსახურება და ხელმისაწვდომი ფასები.">
+  <meta name="keywords"
+    content="კონდიციონერის დაყენება თბილისი, კონდიციონერის მონტაჟი, კონდიციონერის გაწმენდა, კონდიციონერის შეკეთება გამოძახებით, ფრეონის შევსება, კონდიციონერის ხელოსანი თბილისი, პლატის შეკეთება ბინაზე, kondicioneris montaji, kondicioneris sheketeba, kondicioneris wmenda, freonis shevseba">
+
+  <link rel="canonical" href="https://test-acservice.vercel.app/">
+
+  <link rel="alternate" hreflang="ka" href="https://test-acservice.vercel.app/">
+  <link rel="alternate" hreflang="en" href="https://test-acservice.vercel.app/">
+  <link rel="alternate" hreflang="x-default" href="https://test-acservice.vercel.app/">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://test-acservice.vercel.app/">
+  <meta property="og:title" content="კონდიციონერის მონტაჟი, შეკეთება, წმენდა თბილისი | AC Service">
+  <meta property="og:description"
+    content="კონდიციონერის პროფესიონალური სერვისი თბილისში, რუსთავსა და მცხეთაში. გამოძახებით მონტაჟი, წმენდა, ფრეონის შევსება და შეკეთება გარანტიით.">
+  <meta property="og:image" content="https://test-acservice.vercel.app/assets/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://test-acservice.vercel.app/">
+  <meta name="twitter:title" content="კონდიციონერის მონტაჟი, შეკეთება, წმენდა თბილისი | AC Service">
+  <meta name="twitter:description"
+    content="კონდიციონერის პროფესიონალური სერვისი თბილისში, რუსთავსა და მცხეთაში. გამოძახებით მონტაჟი, წმენდა, ფრეონის შევსება და შეკეთება გარანტიით.">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "AC Service - კონდიციონერის სერვისი",
+  "url": "https://test-acservice.vercel.app",
+  "description": "კონდიციონერის მონტაჟი, დაყენება, წმენდა, შეკეთება, ფრეონის შევსება და შეკეთება თბილისში.",
+  "telephone": "+995599003645",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Tbilisi",
+    "addressCountry": "GE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "41.7151",
+    "longitude": "44.8271"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "09:00",
+    "closes": "21:00"
+  },
+  "areaServed": ["Tbilisi", "Rustavi", "Mtskheta"]
+}
+</script>
+  <link rel="stylesheet" href="styles.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-wrap">
+      <a href="#top" class="logo">
+        AC Service<span>.ge</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#services" data-i18n="nav_services">სერვისები</a>
+        <a href="#process" data-i18n="nav_process">როგორ ვმუშაობთ</a>
+        <a href="#why" data-i18n="nav_why">რატომ ჩვენ</a>
+        <a href="#faq" data-i18n="nav_faq">კითხვა-პასუხი</a>
+        <a href="#contact" data-i18n="nav_contact">კონტაქტი</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-toggle">
+          <button type="button" class="active" data-set-lang="ka">GE</button>
+          <button type="button" data-set-lang="en">EN</button>
+        </div>
+        <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobileNav"
+          onclick="toggleMobileNav()">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop" onclick="closeMobileNav()"></div>
+    <nav class="mobile-nav" id="mobileNav">
+      <button class="close-mobile-btn" onclick="closeMobileNav()" aria-label="Close menu">✕</button>
+      <a href="#services" data-i18n="nav_services" onclick="closeMobileNav()">სერვისები</a>
+      <a href="#process" data-i18n="nav_process" onclick="closeMobileNav()">როგორ ვმუშაობთ</a>
+      <a href="#why" data-i18n="nav_why" onclick="closeMobileNav()">რატომ ჩვენ</a>
+      <a href="#faq" data-i18n="nav_faq" onclick="closeMobileNav()">კითხვა-პასუხი</a>
+      <a href="#contact" data-i18n="nav_contact" onclick="closeMobileNav()">კონტაქტი</a>
+      <div class="lang-toggle mobile-lang-toggle">
+        <button type="button" class="active" data-set-lang="ka">GE</button>
+        <button type="button" data-set-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <a href="https://wa.me/995599003645" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="30" height="30" viewBox="0 0 448 512" fill="none" class="whatsapp-icon"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill="currentColor"
+        d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.6-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 13.2 5.8 23.5 9.2 31.6 11.8 13.3 4.2 25.4 3.6 35 2.2 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+    </svg>
+  </a>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span><span data-i18n="hero_eyebrow">ოპერატიული რეაგირება — გამოძახება
+              დღესვე</span></div>
+          <h1 data-i18n="hero_title">კონდიციონერის მონტაჟი, შეკეთება და წმენდა <em>თბილისში</em></h1>
+          <p class="lede" data-i18n="hero_lede">პროფესიონალური კონდიციონერის სერვისი თბილისსა და შემოგარენში. მონტაჟი,
+            დაყენება, წმენდა, შეკეთება და ფრეონის შევსება ნებისმიერი მოდელისთვის სწრაფად და სუფთად.</p>
+          <div class="hero-ctas">
+            <a href="tel:+995599003645" class="btn btn-primary" data-i18n="hero_cta_call">დარეკეთ ახლავე</a>
+            <a href="#contact" class="btn btn-ghost" data-i18n="hero_cta_book">დაჯავშნა</a>
+          </div>
+          <div class="trust-row">
+            <div class="trust-item"><strong>7+</strong><span data-i18n="trust_years">წლიანი გამოცდილება</span></div>
+            <div class="trust-item"><strong>600+</strong><span data-i18n="trust_installs">შესრულებული პროექტი</span>
+            </div>
+            <div class="trust-item"><strong>24/7</strong><span data-i18n="trust_support">გადაუდებელი სერვისი</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="unitGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#16495D" />
+                <stop offset="100%" stop-color="#0A1E2B" />
+              </linearGradient>
+              <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#2AA6B8" />
+                <stop offset="100%" stop-color="#F2A93B" />
+              </linearGradient>
+              <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#2AA6B8" stop-opacity="0.55" />
+                <stop offset="100%" stop-color="#2AA6B8" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+
+            <circle class="glow-pulse" cx="200" cy="140" r="140" fill="url(#glowGrad)" />
+
+            <g class="unit-float">
+              <rect x="60" y="80" width="280" height="90" rx="14" fill="url(#unitGrad)" stroke="#2AA6B8"
+                stroke-width="2" />
+              <g stroke="#2AA6B8" stroke-width="1.4" opacity="0.5">
+                <line x1="78" y1="100" x2="322" y2="100" />
+                <line x1="78" y1="112" x2="322" y2="112" />
+                <line x1="78" y1="124" x2="322" y2="124" />
+              </g>
+              <circle cx="300" cy="95" r="4" fill="#F2A93B" class="blink-dot" />
+              <g class="flap">
+                <rect x="70" y="168" width="260" height="10" rx="5" fill="#0F5C6B" />
+              </g>
+            </g>
+
+            <g class="air-wave w1">
+              <path d="M90 205 Q 200 240 310 205" stroke="url(#waveGrad)" stroke-width="3" fill="none"
+                stroke-linecap="round" stroke-dasharray="6 10" />
+            </g>
+            <g class="air-wave w2">
+              <path d="M100 228 Q 200 258 300 228" stroke="#2AA6B8" stroke-width="2.2" fill="none" opacity="0.5"
+                stroke-linecap="round" stroke-dasharray="4 10" />
+            </g>
+            <g class="air-wave w3">
+              <path d="M115 250 Q 200 274 285 250" stroke="#F2A93B" stroke-width="1.8" fill="none" opacity="0.4"
+                stroke-linecap="round" stroke-dasharray="3 9" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow" data-i18n="services_eyebrow">ჩვენი მომსახურება</div>
+          <h2 data-i18n="services_title">კონდიციონერის სერვისი ერთ ადგილას</h2>
+          <p data-i18n="services_sub">გთავაზობთ სრულ ტექნიკურ მხარდაჭერას — მონტაჟიდან რთულ სისტემურ დიაგნოსტიკამდე.</p>
+        </div>
+        <div class="service-grid">
+
+          <div class="service-card reveal">
+            <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M14.7 6.3a4 4 0 00-5.5 5.5L3 18l3 3 6.2-6.2a4 4 0 005.5-5.5l-2.35 2.35-2.83-2.83L14.7 6.3z"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              </svg></div>
+            <h3 data-i18n="s1_title">მონტაჟი და დაყენება</h3>
+            <p data-i18n="s1_desc">სიმძლავრის სწორი შერჩევა ბინის ფართის მიხედვით, სუფთა და უსაფრთხო სამონტაჟო
+              სამუშაოები</p>
+            <svg class="service-bg-illustration" viewBox="0 0 100 100" fill="none" stroke="currentColor"
+              stroke-width="1.2">
+              <rect x="10" y="30" width="80" height="40" rx="6" />
+              <path d="M20 50h60M20 60h40" />
+            </svg>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v18M3 12h18" />
+                <path d="M6 8L3 12l3 4M18 8l3 4-3 4M8 6l4-3 4 3M8 18l4 3 4-3" />
+              </svg></div>
+            <h3 data-i18n="s2_title">დემონტაჟი და გადატანა</h3>
+            <p data-i18n="s2_desc">უსაფრთხო დემონტაჟი არსებული ფრეონის სრული შენარჩუნებით და ბლოკების გადატანა ახალ
+              ლოკაციაზე</p>
+            <svg class="service-bg-illustration" viewBox="0 0 100 100" fill="none" stroke="currentColor"
+              stroke-width="1.2">
+              <path d="M30 30l40 40M70 30L30 70" stroke-linecap="round" />
+              <circle cx="50" cy="50" r="25" />
+            </svg>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.7c-3.2 4.2-6.2 8-6.2 11.6a6.2 6.2 0 0012.4 0c0-3.6-3-7.4-6.2-11.6z" />
+                <path d="M9 15.5a2.6 2.6 0 002.6 2.6" />
+              </svg></div>
+            <h3 data-i18n="s4_title">წმენდა და დეზინფექცია</h3>
+            <p data-i18n="s4_desc">შიდა და გარე ბლოკის ანტიბაქტერიული დამუშავება, ფილტრების რეცხვა და უსიამოვნო სუნის
+              მოშორება</p>
+            <svg class="service-bg-illustration" viewBox="0 0 100 100" fill="none" stroke="currentColor"
+              stroke-width="1.2">
+              <path d="M50 15v70M15 50h70M25 25l50 50M25 75l50-50" stroke-linecap="round" />
+            </svg>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="13" r="8" />
+                <path d="M12 13l3.5-4" />
+                <path d="M9 4.5h6" />
+              </svg></div>
+            <h3 data-i18n="s5_title">ფრეონის შევსება და დიაგნოსტიკა</h3>
+            <p data-i18n="s5_desc">სისტემის წნევის შემოწმება, გაჟონვის წერტილების იდენტიფიცირება და მაღალი ხარისხის
+              ფრეონით გამართვა</p>
+            <svg class="service-bg-illustration" viewBox="0 0 100 100" fill="none" stroke="currentColor"
+              stroke-width="1.2">
+              <circle cx="50" cy="50" r="30" />
+              <path d="M50 20v30l15 15" stroke-linecap="round" />
+            </svg>
+          </div>
+
+          <div class="service-card reveal" style="grid-column: span 1;">
+            <div class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="5" width="14" height="14" rx="2" />
+                <circle cx="12" cy="12" r="2.2" />
+                <path d="M12 5V3M12 21v-2M5 12H3M21 12h-2M7.5 7.5L6 6M16.5 7.5L18 6M7.5 16.5L6 18M16.5 16.5L18 18" />
+              </svg></div>
+            <h3 data-i18n="s6_title">მართვის პლატის აღდგენა</h3>
+            <p data-i18n="s6_desc">ნებისმიერი სირთულის ელექტრონული მოდულების (პლატის) დიაგნოსტიკა, აღდგენა და ტექნიკური
+              შეკეთება</p>
+            <svg class="service-bg-illustration" viewBox="0 0 100 100" fill="none" stroke="currentColor"
+              stroke-width="1.2">
+              <rect x="20" y="20" width="60" height="60" rx="4" />
+              <path d="M35 35h10v10H35zM55 55h10v10H55zM30 50h40" stroke-linecap="round" />
+            </svg>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow" data-i18n="proc_eyebrow">სამუშაო პროცესი</div>
+          <h2 data-i18n="proc_title">როგორ ვმუშაობთ?</h2>
+          <p data-i18n="proc_sub">მარტივი 4-ნაბიჯიანი პროცესი თქვენი კომფორტისთვის</p>
+        </div>
+        <div class="process-steps">
+          <div class="step reveal">
+            <div class="step-num">1</div>
+            <h3 data-i18n="step1_t">გამოძახება</h3>
+            <p data-i18n="step1_d">გიკავშირდებით ზარის ან ონლაინ ფორმის მიღებიდან მალევე</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">2</div>
+            <h3 data-i18n="step2_t">დიაგნოსტიკა</h3>
+            <p data-i18n="step2_d">ხელოსანი ადგილზე პროფესიონალურად აფასებს სამუშაოს მოცულობას და ათანხმებს ფასს</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">3</div>
+            <h3 data-i18n="step3_t">შესრულება</h3>
+            <p data-i18n="step3_d">სამუშაოები სრულდება სწრაფად და ტექნიკური სტანდარტების სრული დაცვით</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">4</div>
+            <h3 data-i18n="step4_t">ტესტირება და ჩაბარება</h3>
+            <p data-i18n="step4_d">სისტემის წნევისა და რეჟიმების გადამოწმება და გამართული აპარატის ჩაბარება</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="container why-grid">
+        <div>
+          <div class="section-eyebrow" data-i18n="why_eyebrow">უპირატესობები</div>
+          <h2 style="font-size:30px; margin-bottom:24px; color:var(--navy-950);" data-i18n="why_title">რატომ ირჩევენ
+            ჩვენს სერვისს?</h2>
+          <div class="why-list">
+            <div class="why-item reveal">
+              <div class="check">✓</div>
+              <div>
+                <h3 data-i18n="w1_t">სერტიფიცირებული ხელოსნები</h3>
+                <p data-i18n="w1_d">ჩვენს გუნდში მხოლოდ მრავალწლიანი გამოცდილების მქონე პროფესიონალები არიან</p>
+              </div>
+            </div>
+            <div class="why-item reveal">
+              <div class="check">✓</div>
+              <div>
+                <h3 data-i18n="w2_t">ორიგინალი ნაწილები და ფრეონი</h3>
+                <p data-i18n="w2_d">სამუშაოებისას გამოიყენება მხოლოდ მაღალი ხარისხის, ქარხნული კომპონენტები და სუფთა
+                  ფრეონი</p>
+              </div>
+            </div>
+            <div class="why-item reveal">
+              <div class="check">✓</div>
+              <div>
+                <h3 data-i18n="w3_t">სწრაფი და ზუსტი დიაგნოსტიკა</h3>
+                <p data-i18n="w3_d">თანამედროვე აპარატურით მომენტალურად ვადგენთ დაზიანების მიზეზს და ვზოგავთ თქვენს დროს
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="stat-card reveal">
+            <div class="stat"><strong>98%</strong><span data-i18n="st1">კმაყოფილი მომხმარებელი</span></div>
+            <div class="stat"><strong data-i18n="st2_num">სპეციალისტები</strong><span data-i18n="st2">გამოცდილი
+                გუნდი</span></div>
+            <div class="stat"><strong data-i18n="st3_num">30 წთ</strong><span data-i18n="st3">საშუალო რეაგირების
+                დრო</span></div>
+            <div class="stat"><strong data-i18n="st4_num">ევროპული</strong><span data-i18n="st4">სადიაგნოსტიკო
+                ტექნიკა</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container faq-max">
+        <div class="section-head">
+          <div class="section-eyebrow" data-i18n="faq_eyebrow">ხშირად დასმული კითხვები</div>
+          <h2 data-i18n="faq_title">საინტერესო ინფორმაცია და რჩევები</h2>
+          <p data-i18n="faq_sub">პასუხები პოპულარულ შეკითხვებზე კონდიციონერის მოვლასა და მონტაჟზე</p>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span data-i18n="q1">რამდენ ხანში ერთხელ არის საჭირო კონდიციონერის გაწმენდა?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p data-i18n="a1">კონდიციონერის წმენდა და ანტიბაქტერიული დეზინფექცია რეკომენდებულია წელიწადში მინიმუმ ორჯერ
+              — სეზონის დაწყებამდე (გაზაფხულზე და შემოდგომაზე). ეს უზრუნველყოფს სუფთა ჰაერს და იცავს აპარატს
+              გადახურებისგან</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span data-i18n="q2">როგორ მივხვდეთ, რომ სისტემას ფრეონის შევსება სჭირდება?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p data-i18n="a2">ძირითადი ნიშნებია: აპარატი ვეღარ აგრილებს/ათბობს ოთახს სათანადოდ, გარე ბლოკის მილებზე
+              ჩნდება ყინული, ან შიდა ბლოკიდან ისმის უჩვეულო შიშინის ხმა. ასეთ დროს საჭიროა წნევის გაზომვა და ფრეონის
+              დამატება</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span data-i18n="q3">რა დრო სჭირდება კონდიციონერის დაყენებას?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p data-i18n="a3">სტანდარტული კონდიციონერის მონტაჟი საშუალოდ 1-დან 1.5 საათამდე გრძელდება. დრო დამოკიდებულია
+              კედლის სისქეზე, მილების სიგრძესა და გარე ბლოკის დასამაგრებელი ლოკაციის სირთულეზე</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span data-i18n="q4">რატომ უშვებს კონდიციონერი წყალს შიდა ბლოკიდან?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p data-i18n="a4">ეს ძირითადად გამოწვეულია სადრენაჟო მილის გაჭედვით (მტვრის ან ჭუჭყის დაგროვების გამო) ან
+              სისტემაში ფრეონის ნაკლებობით, რაც შიდა ბლოკის მოყინვას იწვევს. ასეთ დროს საჭიროა აპარატის გამორთვა და
+              ხელოსნის გამოძახება მილის გასაწმენდად.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span data-i18n="q5">შეიძლება თუ არა კონდიციონერის ჩართვა ზამთარში გათბობაზე?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p data-i18n="a5">დიახ, თანამედროვე ინვერტორული კონდიციონერების უმრავლესობა ეფექტურად მუშაობს -15°C-მდე
+              (ზოგიერთი მოდელი -25°C-მდეც). თუმცა, ზამთრის სეზონის დაწყებამდე აუცილებელია ფილტრების შემოწმება, რათა
+              აპარატმა ზედმეტი ელექტროენერგია არ მოიხმაროს.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <span data-i18n="q6">რა ჯდება კონდიციონერის მონტაჟი ან წმენდა თბილისში?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p data-i18n="a6">სერვისის ზუსტი ღირებულება დამოკიდებულია კონდიციონერის სიმძლავრეზე (BTU) და სამუშაოს
+              სირთულეზე. მაგალითად, სტანდარტული წმენდის ფასი ფიქსირებულია, ხოლო მონტაჟისას ფასზე გავლენას ახდენს
+              სპილენძის მილების სიგრძე. ზუსტი ტარიფების დასადგენად დაგვიკავშირდით ნომერზე.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <div>
+            <div class="section-eyebrow" data-i18n="c_eyebrow">კონტაქტი</div>
+            <h2 style="font-size:30px; margin-bottom:12px; color:var(--navy-950);" data-i18n="c_title">მოგვწერეთ ან
+              დაგვიკავშირდით</h2>
+            <p style="color:var(--slate-600); font-size:15px;" data-i18n="c_sub">დატოვეთ შეტყობინება და ჩვენ უმოკლეს
+              დროში დაგიკავშირდებით დეტალების დასაზუსტებლად.</p>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">📞</div>
+            <div>
+              <h3 data-i18n="c_p">ტელეფონის ნომერი</h3>
+              <a href="tel:+995599003645">+995 599 00 36 45</a>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">📍</div>
+            <div>
+              <h3 data-i18n="c_a">სამუშაო არეალი</h3>
+              <p data-i18n="c_a_d">თბილისი, რუსთავი, მცხეთა</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <form class="contact-form" id="orderForm" onsubmit="handleFormSubmit(event)">
+            <input type="hidden" name="from_name" value="კონდიციონერის სერვისი">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <div class="form-row">
+              <div class="field">
+                <label for="client_name" data-i18n="f_name">სახელი *</label>
+                <input type="text" id="client_name" name="name" required>
+              </div>
+          
+              <div class="field">
+                <label for="client_phone" data-i18n="f_phone">ტელეფონის ნომერი *</label>
+                <input type="tel" id="client_phone" name="phone" required placeholder="5XX XX XX XX">
+              </div>
+            </div>
+          
+            <div class="field">
+              <label for="service_type" data-i18n="f_service">აირჩიეთ სერვისი</label>
+              <select id="service_type" name="service">
+                <option value="მონტაჟი / დაყენება" data-i18n="f_o1">მონტაჟი / დაყენება</option>
+                <option value="დემონტაჟი / გადატანა" data-i18n="f_o1_dem">დემონტაჟი / გადატანა</option>
+                <option value="წმენდა / დეზინფექცია" data-i18n="f_o2">წმენდა / დეზინფექცია</option>
+                <option value="შეკეთება / დიაგნოსტიკა" data-i18n="f_o3">შეკეთება / დიაგნოსტიკა</option>
+                <option value="ფრეონის დამატება" data-i18n="f_o4">ფრეონის დამატება</option>
+              </select>
+            </div>
+          
+            <div class="field">
+              <label for="client_msg" data-i18n="f_msg">დამატებითი კომენტარი (არასავალდებულო)</label>
+              <textarea id="client_msg" name="message"></textarea>
+            </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  style="width:100%; justify-content:center; border-radius:8px;"
+                  data-i18n="f_btn">
+                  მოთხოვნის გაგზავნა
+                </button>
+    
+            <div class="form-note" data-i18n="f_note">
+              კონფიდენციალურობა დაცულია. თქვენს მონაცემებს მესამე პირებს არ გადავცემთ
+            </div>
+            
+            <div class="form-success" id="successMsg" data-i18n="f_success" hidden>
+              ✓ მოთხოვნა წარმატებით გაიგზავნა! მალე დაგიკავშირდებით
+            </div>
+      </form>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="contact-map-card reveal">
+          <div class="contact-map-head">
+            <div>
+              <h4 data-i18n="c_map_title">ჩვენი მდებარეობა რუკაზე</h4>
+              <p data-i18n="c_map_sub">ეწვიეთ ჩვენს გვერდს Google Maps-ზე მარშრუტისა და შეფასებების სანახავად</p>
+            </div>
+            <div class="contact-map-actions">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=41.707582371260955,44.80321337607579"
+                target="_blank" rel="noopener" class="btn-outline-sm" data-i18n="c_map_dir">მარშრუტი</a>
+              <a href="https://www.google.com/maps?cid=10541071551651383301" target="_blank" rel="noopener"
+                class="btn-outline-sm" data-i18n="c_map_reviews">შეფასებები</a>
+            </div>
+          </div>
+          <div class="map-frame">
+            <iframe
+              data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2354.179496883865!2d44.80321337607579!3d41.707582371260955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d89164dc6d5%3A0x924968ba2c280805!2z4YOZ4YOd4YOc4YOT4YOY4YOq4YOY4YOd4YOc4YOU4YOg4YOY4YOhIOGDruGDlOGDmuGDneGDoeGDkOGDnOGDmA!5e1!3m2!1sen!2sge!4v1783711018350!5m2!1sen!2sge"
+              width="100%" height="360" style="border:0;" allowfullscreen=""
+              referrerpolicy="strict-origin-when-cross-origin" title="AC Service Google Map" class="lazy-map">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="6" fill="#1C8C9E" />
+            <path d="M8 12h16M8 16h16M8 20h10" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+          </svg>
+          <span>AC Service</span>
+        </div>
+        <p class="footer-desc" data-i18n="f_desc">პროფესიონალური ტექნიკური მომსახურება თბილისსა და მის შემოგარენში</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="f_c3">სამუშაო საათები</h4>
+        <p style="font-size:13px; color:rgba(255,255,255,0.5);" data-i18n="f_hours">ორშაბათი - კვირა<br><strong
+            style="color:var(--white)">09:00 - 21:00</strong></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div data-i18n="f_copy">© 2026 AC Service. ყველა უფლება დაცულია.</div>
+      <div style="display:flex; gap:16px;">
+        <a href="#top" style="color: rgba(255, 255, 255, 0.75);" data-i18n="f_up">ზემოთ ასვლა ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.min.js" defer></script>
+
+</body>
+
+</html>
