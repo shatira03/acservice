@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://test-acservice.vercel.app/sitemap.xml
+Sitemap: https://kondicioneris-montaji.ge/sitemap.xml
