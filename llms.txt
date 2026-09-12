@@ -4,7 +4,7 @@
 
 ## Website
 
-- https://test-acservice.vercel.app/
+- https://kondicioneris-montaji.ge/
 
 ## About
 
@@ -33,6 +33,6 @@ AC Service has provided residential and commercial air conditioner services sinc
 
 ## Contact
 
-- Website: https://test-acservice.vercel.app/
+- Website: https://kondicioneris-montaji.ge/
 - Phone: +995 599 003 645
 - Working Hours: Monday–Sunday
