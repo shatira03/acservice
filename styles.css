@@ -107,21 +107,10 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 19px;
-  color: var(--white);
 }
-
-.logo-mark {
-  width: 28px;
-  height: 28px;
-  flex-shrink: 0;
-}
-
-.logo span {
-  color: var(--teal-400);
-  font-weight: 500;
+.snowflake-icon {
+  width: 40px;
+  height: 40px;
 }
 
 nav.main-nav {
