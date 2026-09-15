@@ -73,7 +73,7 @@
   <link rel="stylesheet" href="styles.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -81,29 +81,27 @@
 
   <header>
     <div class="nav-wrap">
-        <a href="#top" class="logo">
-          <svg class="snowflake-icon" viewBox="0 0 100 100" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="snowflakeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#4fc3f7" />
-                <stop offset="50%" stop-color="#0288d1" />
-                <stop offset="100%" stop-color="#01579b" />
-              </linearGradient>
-            </defs>
-            <g fill="url(#snowflakeGrad)" stroke="#ffffff" stroke-width="0.5">
-              <path d="M50 10 L50 90 M10 50 L90 50 M22 22 L78 78 M22 78 L78 22" stroke-width="4" stroke-linecap="round"/>
-              <path d="M50 15 L43 25 L50 32 L57 25 Z" />
-              <path d="M50 85 L43 75 L50 68 L57 75 Z" />
-              <path d="M15 50 L25 43 L32 50 L25 57 Z" />
-              <path d="M85 50 L75 43 L68 50 L75 57 Z" />
-              <path d="M25 25 L32 30 L38 25 L32 19 Z" />
-              <path d="M75 75 L68 70 L62 75 L68 81 Z" />
-              <path d="M25 75 L32 70 L38 75 L32 81 Z" />
-              <path d="M75 25 L68 30 L62 25 L68 19 Z" />
-            </g>
-          </svg>
-        </a>
-      </div>
+      <a href="#top" class="logo">
+        <svg class="snowflake-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="snowflakeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#4fc3f7" />
+              <stop offset="100%" stop-color="#0288d1" />
+            </linearGradient>
+          </defs>
+          <g fill="none" stroke="url(#snowflakeGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"
+            transform="translate(50,50)">
+            <path d="M0 0 L0 -42 M0 0 L0 42 M0 0 L-36 -21 M0 0 L36 21 M0 0 L-36 21 M0 0 L36 -21" />
+            <path d="M0 -24 L10 -31 M0 -24 L-10 -31" />
+            <path d="M0 24 L10 31 M0 24 L-10 31" />
+            <path d="M-18 -10 L-26 -18 M-18 -10 L-28 -4" />
+            <path d="M18 -10 L26 -18 M18 -10 L28 -4" />
+            <path d="M-18 10 L-26 18 M-18 10 L-28 4" />
+            <path d="M18 10 L26 18 M18 10 L28 4" />
+            <circle cx="0" cy="0" r="5" fill="#4fc3f7" stroke="none" />
+          </g>
+        </svg>
+      </a>
       <nav class="main-nav">
         <a href="#services" data-i18n="nav_services">სერვისები</a>
         <a href="#process" data-i18n="nav_process">როგორ ვმუშაობთ</a>
@@ -506,13 +504,13 @@
                 <label for="client_name" data-i18n="f_name">სახელი *</label>
                 <input type="text" id="client_name" name="name" required>
               </div>
-          
+
               <div class="field">
                 <label for="client_phone" data-i18n="f_phone">ტელეფონის ნომერი *</label>
                 <input type="tel" id="client_phone" name="phone" required placeholder="5XX XX XX XX">
               </div>
             </div>
-          
+
             <div class="field">
               <label for="service_type" data-i18n="f_service">აირჩიეთ სერვისი</label>
               <select id="service_type" name="service">
@@ -523,27 +521,24 @@
                 <option value="ფრეონის დამატება" data-i18n="f_o4">ფრეონის დამატება</option>
               </select>
             </div>
-          
+
             <div class="field">
               <label for="client_msg" data-i18n="f_msg">დამატებითი კომენტარი (არასავალდებულო)</label>
               <textarea id="client_msg" name="message"></textarea>
             </div>
-                <button
-                  type="submit"
-                  class="btn btn-primary"
-                  style="width:100%; justify-content:center; border-radius:8px;"
-                  data-i18n="f_btn">
-                  მოთხოვნის გაგზავნა
-                </button>
-    
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; border-radius:8px;"
+              data-i18n="f_btn">
+              მოთხოვნის გაგზავნა
+            </button>
+
             <div class="form-note" data-i18n="f_note">
               კონფიდენციალურობა დაცულია. თქვენს მონაცემებს მესამე პირებს არ გადავცემთ
             </div>
-            
+
             <div class="form-success" id="successMsg" data-i18n="f_success" hidden>
               ✓ მოთხოვნა წარმატებით გაიგზავნა! მალე დაგიკავშირდებით
             </div>
-      </form>
+          </form>
         </div>
       </div>
 
