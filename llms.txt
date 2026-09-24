@@ -1,4 +1,4 @@
-# AC Service Tbilisi
+# Air conditioner service Batumi
 
 > Professional air conditioning installation, repair, cleaning, maintenance, and Freon refill services in Tbilisi, Rustavi, and Mtskheta, Georgia.
 
@@ -8,7 +8,7 @@
 
 ## About
 
-AC Service has provided residential and commercial air conditioner services since 2019. The company specializes in installation, maintenance, diagnostics, repair, antibacterial cleaning, and system relocation.
+Air conditioner service has provided residential and commercial air conditioner services since 2019. The company specializes in installation, maintenance, diagnostics, repair, antibacterial cleaning, and system relocation.
 
 ## Core Services
 
@@ -21,9 +21,8 @@ AC Service has provided residential and commercial air conditioner services sinc
 
 ## Service Area
 
-- Tbilisi
-- Rustavi
-- Mtskheta
+- Batumi
+- Kobuleti
 - Georgia
 
 ## Languages
